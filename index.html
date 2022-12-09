@@ -19,16 +19,17 @@
 <body>
     <header class="header-container">
         <img src="./bilder/logo.svg" alt="snap logo" class="logo">
+        <div class="page-mask"></div>
         <div class="nav-container-flex">
 
 
             <div class="nav-container-left">
 
                 <ul class="nav-ul">
-                    <li class="li dropdown-li">
+                    <li class="li dropdown-li .nav-links">
                         <p class="p-hoverable .noselect" id="features">Features</p>
-                        <div class="icon-container" id="features"><svg class="arrow-down-icon" width="10" height="6"
-                                xmlns="http://www.w3.org/2000/svg">
+                        <div class="icon-container" id="features"><svg class="arrow-icon arrow-icon-feat" width="10"
+                                height="6" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke="currentcolor" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
                             </svg></div>
                         <div class="dropdown-container-features" id="features-container">
@@ -75,8 +76,8 @@
                     </li>
                     <li class="li dropdown-li">
                         <p class="p-hoverable .noselect" id="company">Company</p>
-                        <div class="icon-container" id="company"><svg class="arrow-down-icon" width="10" height="6"
-                                xmlns="http://www.w3.org/2000/svg">
+                        <div class="icon-container" id="company"><svg class="arrow-icon arrow-icon-comp" width="10"
+                                height="6" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke="currentcolor" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
                             </svg></div>
                         <div class="dropdown-container-company">
@@ -89,7 +90,7 @@
                         <p class="p-hoverable .noselect">Careers</p>
                     </li>
                     <li class="li">
-                        <p class="p-hoverable .noselect"></p>
+                        <p class="p-hoverable .noselect">About</p>
                     </li>
                 </ul>
             </div>
@@ -97,8 +98,16 @@
             <div class="nav-container-right">
                 <p class="p-hoverable login-btn">Login</p>
                 <button class="p-hoverable register-btn">Register</button>
+
             </div>
+
         </div>
+        <div class="burger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+
     </header>
 
 
