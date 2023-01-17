@@ -154,11 +154,7 @@ body {
     border: .8px solid var(--black);
 }
 
-.dropdown-li {
-    display: flex;
-    position: relative;
 
-}
 
 .icon-container {
     width: 20px;
@@ -174,6 +170,8 @@ body {
     margin-inline: auto;
     transition: transform .5s ease;
 }
+
+
 
 .arrow-icon-feat.arrowAnimation {
     transform: rotate(180deg);
@@ -360,14 +358,18 @@ body {
 }
 
 .p-container {
-    margin-bottom: 24px;
+    margin-bottom: 36px;
     width: 95%;
     margin-inline: auto;
     text-align: center;
 }
 
+.p-hero {
+    font-size: 16px;
+}
+
 .button-container {
-    margin-bottom: 32px;
+    margin-bottom: 48px;
 }
 
 .button-container button {
@@ -543,6 +545,7 @@ body {
     .h1 {
         font-size: 70px;
         color: var(--black);
+        font-weight: bold;
     }
 
     .desktop-linebreak {
@@ -604,4 +607,16 @@ body {
 
 .show {
     display: block;
+}
+
+.dropdown-li {
+    display: flex;
+    position: relative;
+    color: var(--gray);
+
+}
+
+.dropdown-li:hover {
+    color: var(--black);
+
 }
